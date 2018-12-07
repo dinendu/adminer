@@ -1,4 +1,4 @@
-#version: '3.5'
+version: '3.5'
 services:
  adminer:  #Optional for accessing databases
   image: adminer
