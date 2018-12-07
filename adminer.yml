@@ -7,7 +7,7 @@ services:
   ports:
    - 8080:8080
   networks:
-   zbx_net_backend:
+#   zbx_net_backend:
 #    aliases:
 #     - mysql-server
 #     - zabbix-database
