@@ -10,7 +10,7 @@ services:
  # network_mode: host 
     networks:
       zbx_net_frontend:
-#     - ipv4_address: '172.30.238.70'
+        ipv4_address: '172.30.238.70'
 #networks:
 #  zbx_net_frontend:
 #    driver: bridge
