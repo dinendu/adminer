@@ -7,14 +7,8 @@ services:
   ports:
    - 8080:8080
   networks:
-#   zbx_net_backend:
-#    aliases:
-#     - mysql-server
-#     - zabbix-database
-#     - mysql-database 
-#     - adminer
    zbx_net_frontend:
-    ipv4_address: '172.30.238.70'
+    - ipv4_address: '172.30.238.70'
 networks:
   zbx_net_frontend:
     driver: bridge
